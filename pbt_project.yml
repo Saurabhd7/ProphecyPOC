@@ -1,6 +1,6 @@
 name: Cloudaeon_ProphecyPOC
 description: ''
-version: 0.0.1
+version: '1'
 author: saurabh@cloudaeon.net
 language: python
 buildSystem: ''
