@@ -1,0 +1,65 @@
+name: Cloudaeon_ProphecyPOC
+description: ''
+version: 0.0.1
+author: saurabh@cloudaeon.net
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: cloudaeonprophecypoc
+  parentArtefactID: saurabhcloudaeonnetteam
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-10-31 08:40:53'
+pipelines:
+  pipelines/expression_builder:
+    name: expression_builder
+    description: ''
+    author: saurabh@cloudaeon.net
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-10-31 08:40:53'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: '3.10'
+  gemLibsVersion: 1.3.4.0
+  gems: {}
+functions:
+  author: null
+  createdAt: '2023-10-31 08:40:53'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+subgraphs: {}
+sqlModels: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies: '[]'
+projectDependencies:
+  '12654':
+    projectUID: 12654
+    projectName: ProphecySparkBasicsPython
+    repositoryPath: gitUri=http://gitserver:3000/DxEheDCJ_team_5751/DxEheDCJ_project_12654.git&subPath=
+    version: 0.0.5
+    isDefault: true
+    author: null
+    createdAt: '2023-10-31 08:39:38'
+  '12655':
+    projectUID: 12655
+    projectName: ProphecyWarehousePython
+    repositoryPath: gitUri=http://gitserver:3000/DxEheDCJ_team_5751/DxEheDCJ_project_12655.git&subPath=
+    version: 0.0.2
+    isDefault: true
+    author: null
+    createdAt: '2023-10-31 08:39:38'
+pipelineConfigurations: {}
