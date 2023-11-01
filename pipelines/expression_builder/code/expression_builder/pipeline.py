@@ -5,9 +5,11 @@ from prophecy.utils import *
 from expression_builder.config.ConfigStore import *
 from expression_builder.udfs.UDFs import *
 from prophecy.utils import *
+from expression_builder.graph import *
 
 def pipeline(spark: SparkSession) -> None:
-    pass
+    df_customer_churn = customer_churn(spark)
+    df_cust_seg = cust_seg(spark, df_customer_churn)
 
 def main():
     spark = SparkSession.builder\

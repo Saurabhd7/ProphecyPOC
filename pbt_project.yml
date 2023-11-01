@@ -20,11 +20,25 @@ pipelines:
     language: python
     createdAt: '2023-10-31 08:40:53'
     datasets:
-      inputs: []
+      inputs:
+      - datasets/customer_churn
       outputs: []
     subgraphs: []
     dependencies: {}
-datasets: {}
+datasets:
+  datasets/customer_churn:
+    name: customer_churn
+    description: ''
+    author: saurabh@cloudaeon.net
+    createdAt: '2023-10-31 09:53:43'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 6411
+        datasetType: File
+        description: ''
+        author: saurabh@cloudaeon.net
+        createdAt: '2023-10-31 09:53:43'
 templates: {}
 jobs: {}
 gemContainer:
