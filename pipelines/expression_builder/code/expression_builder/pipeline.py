@@ -10,6 +10,7 @@ from expression_builder.graph import *
 def pipeline(spark: SparkSession) -> None:
     df_customer_churn = customer_churn(spark)
     df_cust_seg = cust_seg(spark, df_customer_churn)
+    cust_segm(spark, df_cust_seg)
 
 def main():
     spark = SparkSession.builder\

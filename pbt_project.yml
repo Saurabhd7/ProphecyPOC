@@ -22,7 +22,8 @@ pipelines:
     datasets:
       inputs:
       - datasets/customer_churn
-      outputs: []
+      outputs:
+      - datasets/cust_segment
     subgraphs: []
     dependencies: {}
 datasets:
@@ -39,6 +40,19 @@ datasets:
         description: ''
         author: saurabh@cloudaeon.net
         createdAt: '2023-10-31 09:53:43'
+  datasets/cust_segment:
+    name: cust_segment
+    description: ''
+    author: saurabh@cloudaeon.net
+    createdAt: '2023-11-01 08:16:45'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 6411
+        datasetType: File
+        description: ''
+        author: saurabh@cloudaeon.net
+        createdAt: '2023-11-01 08:16:45'
 templates: {}
 jobs: {}
 gemContainer:

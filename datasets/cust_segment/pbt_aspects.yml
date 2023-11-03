@@ -149,3 +149,10 @@ schema:
       description: ''
       mappings: []
       tags: []
+  - name: cust_segment
+    type: string
+    nullable: false
+    metadata:
+      description: ''
+      mappings: []
+      tags: []

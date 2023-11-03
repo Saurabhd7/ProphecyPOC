@@ -131,7 +131,7 @@
             }, {
               "name" : "gender",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -140,7 +140,7 @@
             }, {
               "name" : "SeniorCitizen",
               "type" : "integer",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -149,7 +149,7 @@
             }, {
               "name" : "Partner",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -158,7 +158,7 @@
             }, {
               "name" : "Dependents",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -167,7 +167,7 @@
             }, {
               "name" : "tenure",
               "type" : "integer",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -176,7 +176,7 @@
             }, {
               "name" : "PhoneService",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -185,7 +185,7 @@
             }, {
               "name" : "MultipleLines",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -194,7 +194,7 @@
             }, {
               "name" : "InternetService",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -203,7 +203,7 @@
             }, {
               "name" : "OnlineSecurity",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -212,7 +212,7 @@
             }, {
               "name" : "OnlineBackup",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -221,7 +221,7 @@
             }, {
               "name" : "DeviceProtection",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -230,7 +230,7 @@
             }, {
               "name" : "TechSupport",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -239,7 +239,7 @@
             }, {
               "name" : "StreamingTV",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -248,7 +248,7 @@
             }, {
               "name" : "StreamingMovies",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -257,7 +257,7 @@
             }, {
               "name" : "Contract",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -266,7 +266,7 @@
             }, {
               "name" : "PaperlessBilling",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -275,7 +275,7 @@
             }, {
               "name" : "PaymentMethod",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -284,7 +284,7 @@
             }, {
               "name" : "MonthlyCharges",
               "type" : "decimal(20,2)",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -293,7 +293,7 @@
             }, {
               "name" : "TotalCharges",
               "type" : "decimal(20,2)",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -302,7 +302,7 @@
             }, {
               "name" : "Churn",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -386,7 +386,7 @@
             }, {
               "name" : "gender",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -395,7 +395,7 @@
             }, {
               "name" : "SeniorCitizen",
               "type" : "integer",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -404,7 +404,7 @@
             }, {
               "name" : "Partner",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -413,7 +413,7 @@
             }, {
               "name" : "Dependents",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -422,7 +422,7 @@
             }, {
               "name" : "tenure",
               "type" : "integer",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -431,7 +431,7 @@
             }, {
               "name" : "PhoneService",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -440,7 +440,7 @@
             }, {
               "name" : "MultipleLines",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -449,7 +449,7 @@
             }, {
               "name" : "InternetService",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -458,7 +458,7 @@
             }, {
               "name" : "OnlineSecurity",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -467,7 +467,7 @@
             }, {
               "name" : "OnlineBackup",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -476,7 +476,7 @@
             }, {
               "name" : "DeviceProtection",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -485,7 +485,7 @@
             }, {
               "name" : "TechSupport",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -494,7 +494,7 @@
             }, {
               "name" : "StreamingTV",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -503,7 +503,7 @@
             }, {
               "name" : "StreamingMovies",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -512,7 +512,7 @@
             }, {
               "name" : "Contract",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -521,7 +521,7 @@
             }, {
               "name" : "PaperlessBilling",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -530,7 +530,7 @@
             }, {
               "name" : "PaymentMethod",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -539,7 +539,7 @@
             }, {
               "name" : "MonthlyCharges",
               "type" : "decimal(20,2)",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -548,7 +548,7 @@
             }, {
               "name" : "TotalCharges",
               "type" : "decimal(20,2)",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -557,7 +557,7 @@
             }, {
               "name" : "Churn",
               "type" : "string",
-              "nullable" : true,
+              "nullable" : false,
               "metadata" : {
                 "description" : "",
                 "mappings" : [ ],
@@ -581,7 +581,9 @@
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
       },
-      "properties" : { }
+      "properties" : {
+        "datasetId" : "datasets/cust_segment"
+      }
     }
   },
   "ports" : {
@@ -590,22 +592,5 @@
     "selectedInputFields" : [ ],
     "isCustomOutputSchema" : false,
     "autoUpdateOnRun" : false
-  },
-  "diagnostics" : [ {
-    "property" : "$.workflow.processes.YdVf-cJIVX74_wXpth6jw$$Nh9A7eZiO9Um4CY35300O.properties.datasetId",
-    "range" : {
-      "start" : {
-        "line" : 0,
-        "character" : 0
-      },
-      "end" : {
-        "line" : 0,
-        "character" : 0
-      }
-    },
-    "severity" : 1,
-    "message" : "dataset id missing",
-    "tags" : [ ],
-    "relatedInformation" : [ ]
-  } ]
+  }
 }

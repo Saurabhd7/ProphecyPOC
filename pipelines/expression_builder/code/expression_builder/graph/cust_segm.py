@@ -6,8 +6,11 @@ from prophecy.libs import typed_lit
 from expression_builder.config.ConfigStore import *
 from expression_builder.udfs.UDFs import *
 
-def customer_churn(spark: SparkSession) -> DataFrame:
-    return spark.read\
+def cust_segm(spark: SparkSession, in0: DataFrame):
+    in0.write\
         .option("header", True)\
         .option("sep", ",")\
-        .csv("dbfs:/mnt/data/case1/input/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+        .mode("append")\
+        .option("separator", ",")\
+        .option("header", True)\
+        .csv("dbfs:/FileStore/tables/output/customer_segment.csv")
